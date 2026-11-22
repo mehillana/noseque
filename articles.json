@@ -15,8 +15,8 @@
     "categoria": "Geografia",
     "titol": "L'illa dels Faisans: el territori que canvia de país cada sis mesos",
     "explicacio": [
-      "Al mig del riu Bidasoa, entre Irun (Guipúscoa) i Hendaia (França), hi ha un illot deshabitat de només 200 metres de llargada i 40 d'amplada anomenat illa dels Faisans.",
-      "És el condomini més petit del món: des del Tractat dels Pirineus de 1659, Espanya i França es reparteixen la sobirania cada any. De l'1 de febrer al 31 de juliol pertany a Espanya, i de l'1 d'agost al 31 de gener passa a mans de França."
+      "Al mig del riu Bidasoa, entre Irun (Guipúscoa) i Hendaia (França), hi ha un illot deshabitat d'uns 6.820 m² (aproximadament 200 metres de llargada) anomenat illa dels Faisans.",
+      "És un condomini administrat conjuntament per Espanya i França: de l'1 de febrer al 31 de juliol l'administració correspon a Espanya, i de l'1 d'agost al 31 de gener passa a mans de França, un sistema vinculat històricament als acords fronterers del Tractat dels Pirineus (1659) i del Tractat de Baiona (1856)."
     ]
   },
   {
@@ -35,8 +35,198 @@
     "categoria": "Cultura",
     "titol": "Wondmó: roujiamo i fideus biangbiang fets a mà al carrer de la Diputació",
     "explicacio": [
-      "Situat al carrer de la Diputació de Barcelona, el restaurant Wondmó està especialitzat en plats tradicionals de la província xinesa de Shaanxi, amb dues elaboracions emblemàtiques: el roujiamo —un panet cruixent farcit de carn estofada lenta considerat un dels precedents històrics de l'hamburguesa— i els fideus biangbiang.",
+      "Situat al carrer de la Diputació de Barcelona, el restaurant Wondmó està especialitzat en plats tradicionals de la província xinesa de Shaanxi, amb dues elaboracions emblemàtiques: el roujiamo —un panet cruixent farcit de carn estofada lenta— i els fideus biangbiang.",
       "Els fideus biangbiang es caracteritzen per ser cintes de massa molt amples i llargues estirades a mà al moment, i el seu nom prové d'un dels caràcters xinesos més complexos que existeixen (amb 58 traços en la seva forma tradicional), creat per imitar el so de la massa en colpejar contra el taulell."
+    ]
+  },
+  {
+    "id": "art-llivia-enclavament",
+    "data": "2026-10-29",
+    "categoria": "Geografia",
+    "titol": "Llívia: un enclavament de 12,83 km² envoltat de territori francès",
+    "explicacio": [
+      "El municipi de Llívia, a la Cerdanya, té una superfície d'uns 12,83 km² i queda separat de la resta de Catalunya pel territori de l'Alta Cerdanya, a l'estat francès.",
+      "El seu origen es remunta al Tractat dels Pirineus de 1659: mentre que es van cedir a França trenta-tres pobles de la Cerdanya, Llívia va mantenir-se sota sobirania espanyola pel seu estatus de vila reconegut per Carles V el 1528."
+    ]
+  },
+  {
+    "id": "art-catala-andorra-llengues",
+    "data": "2026-10-22",
+    "categoria": "Llengua",
+    "titol": "El català és l'únic idioma oficial del Principat d'Andorra",
+    "explicacio": [
+      "A diferència d'altres estats on conviuen diverses llengües oficials, l'article 2.1 de la Constitució d'Andorra de 1993 estableix el català com l'única llengua oficial de l'Estat.",
+      "En conjunt, el català es parla en quatre estats europeus (Espanya, França, Andorra i Itàlia, a la ciutat sarda de l'Alguer) i compta amb prop de 10 milions de parlants."
+    ]
+  },
+  {
+    "id": "art-sagrada-familia-alçada",
+    "data": "2026-10-15",
+    "categoria": "Cultura",
+    "titol": "La torre de Jesucrist de la Sagrada Família: 172,5 metres d'alçada projectada",
+    "explicacio": [
+      "Antoni Gaudí va dissenyar el temple de la Sagrada Família de Barcelona de manera que la torre central, dedicada a Jesucrist, assolís els 172,5 metres d'alçada, just per sota dels 177 metres de la muntanya de Montjuïc.",
+      "Segons la voluntat documentada de l'arquitecte, l'obra humana no havia de superar l'obra de la natura en l'horitzó de la ciutat, un criteri que va determinar les cotes màximes del conjunt de torres."
+    ]
+  },
+  {
+    "id": "art-mar-morta-salinitat",
+    "data": "2026-10-08",
+    "categoria": "Geografia",
+    "titol": "El mar Mort és un llac endorreic a més de 430 metres sota el nivell del mar",
+    "explicacio": [
+      "Tot i el nom de «mar», el mar Mort —situat entre Jordània, Israel i Cisjordània— és un llac salat sense sortida al mar la superfície del qual se situa a més de 430 metres per sota del nivell mitjà del mar, convertint-lo en la depressió terrestre més profunda a cel obert.",
+      "La seva salinitat supera el 30 % (unes vuit o nou vegades més que la mitjana dels oceans), cosa que augmenta la densitat de l'aigua i fa que els cossos hi flotin amb molta facilitat."
+    ]
+  },
+  {
+    "id": "art-paraules-origen-arab",
+    "data": "2026-10-01",
+    "categoria": "Llengua",
+    "titol": "Arabismes d'ús quotidià en català: de «catifa» i «taronges» a «magatzem»",
+    "explicacio": [
+      "Durant l'edat mitjana, el contacte entre el món àrab i els territoris de parla catalana va incorporar centenars de préstecs lèxics, especialment en l'agricultura, el regadiu, el comerç i la vida domèstica.",
+      "Paraules d'ús habitual com «arròs», «albergínia», «catifa», «magatzem» o «taronja» tenen origen àrab i s'han integrat plenament en la morfologia i l'ortografia del català."
+    ]
+  },
+  {
+    "id": "art-impremta-gutenberg-1455",
+    "data": "2026-09-24",
+    "categoria": "Cultura",
+    "titol": "La Bíblia de Gutenberg (cap al 1455) i els tipus mòbils metàl·lics a Europa",
+    "explicacio": [
+      "A mitjan segle XV (cap al 1455), Johannes Gutenberg va imprimir a Magúncia la coneguda Bíblia de 42 línies utilitzant un sistema de tipus mòbils metàl·lics fosos en motlle i una tinta adequada per a metall.",
+      "Tot i que a l'Àsia oriental ja existien precedents d'impressió i tipus mòbils (com a la Xina amb Bi Sheng al segle XI i a Corea amb tipus metàl·lics al segle XIII), l'innovació de Gutenberg va accelerar enormement la producció de llibres a Europa."
+    ]
+  },
+  {
+    "id": "art-estret-gibraltar-distancia",
+    "data": "2026-09-17",
+    "categoria": "Geografia",
+    "titol": "L'estret de Gibraltar separa Europa i Àfrica per menys de 14 quilòmetres",
+    "explicacio": [
+      "En el seu punt més estret, entre Punta Marroquí (prop de Tarifa, a la península Ibèrica) i Punta Cires (al Marroc), l'estret de Gibraltar té una amplada d'uns 14 quilòmetres.",
+      "Aquest pas marítim connecta l'oceà Atlàntic amb la mar Mediterrània i genera un intercanvi constant de masses d'aigua, amb un corrent superficial d'entrada d'aigua atlàntica menys densa i un flux profund de sortida d'aigua mediterrània més densa i salada."
+    ]
+  },
+  {
+    "id": "art-onomatopeies-catala",
+    "data": "2026-09-10",
+    "categoria": "Llengua",
+    "titol": "Verbs expressius i onomatopeies en català: «xiuxiuejar» i «esclafir»",
+    "explicacio": [
+      "El català compta amb un ampli repertori de verbs expressius i formes onomatopeiques que reprodueixen sons o accions de manera vivencial, com «xiuxiuejar» (parlar en veu baixa) o «esclafir» (obrir-se o trencar-se amb un soroll sec).",
+      "A diferència de les interjeccions aïllades, aquests verbs s'integren en la conjugació regular o irregular i permeten descriure matisos acústics i de moviment sense necessitat d'afegir llargues perífrasis."
+    ]
+  },
+  {
+    "id": "art-utf8-codificacio",
+    "data": "2026-09-05",
+    "categoria": "Cultura",
+    "titol": "UTF-8: la codificació de caràcters dissenyada per Ken Thompson i Rob Pike el 1992",
+    "explicacio": [
+      "La codificació UTF-8 va ser dissenyada el setembre de 1992 per Ken Thompson i Rob Pike per representar tots els caràcters de l'estàndard Unicode utilitzant d'un a quatre bytes per caràcter.",
+      "El seu disseny és compatible amb ASCII i permet escriure sense problemes caràcters propis del català com «ç», «à», «è», «é», «í», «ò», «ó», «ú» i el punt volat «·» arreu del web."
+    ]
+  },
+  {
+    "id": "art-estret-bering",
+    "data": "2026-09-02",
+    "categoria": "Geografia",
+    "titol": "L'estret de Bering: uns 82 quilòmetres entre Àsia i Amèrica del Nord",
+    "explicacio": [
+      "L'estret de Bering separa el cap Dezhnev, a l'extrem oriental de Sibèria (Rússia), del cap Prince of Wales, a Alaska (Estats Units), amb una distància mínima d'uns 82 quilòmetres i una profunditat mitjana d'entre 30 i 50 metres.",
+      "Durant les glaciacions del Plistocè, el descens del nivell del mar va deixar al descobert el pont terrestre de Beríngia, una connexió clau per als moviments de fauna i poblacions humanes entre els dos continents."
+    ]
+  },
+  {
+    "id": "art-diacritics-catala",
+    "data": "2026-08-29",
+    "categoria": "Llengua",
+    "titol": "Els accents diacrítics en català i la seva reducció a les normes de 2016",
+    "explicacio": [
+      "Els accents diacrítics s'utilitzen per diferenciar paraules que s'escriuen amb les mateixes lletres però tenen categories gramaticals o significats diferents, com «mà» (extremitat) i «ma» (possessiu).",
+      "Amb l'ortografia de l'Institut d'Estudis Catalans aprovada el 2016, es va reduir dràsticament la llista de monosíl·labs amb accent diacrític per simplificar-ne l'ús quotidià."
+    ]
+  },
+  {
+    "id": "art-biblioteca-alexandria-museu",
+    "data": "2026-08-25",
+    "categoria": "Cultura",
+    "titol": "El Mouseion d'Alexandria i l'impuls de la compilació del coneixement al segle III aC",
+    "explicacio": [
+      "Fundada a Alexandria (Egipte) al segle III aC sota el regnat dels Ptolomeus, la institució vinculada al Mouseion i a la Gran Biblioteca va reunir centenars de milers de rotllos de papir i va impulsar treballs de filologia, matemàtiques i astronomia.",
+      "Un dels mètodes documentats per engrandir el fons era copiar els manuscrits que arribaven al port en vaixells i retornar sovint la còpia als propietaris mentre es conservava l'original."
+    ]
+  },
+  {
+    "id": "art-atacam-desert-arid",
+    "data": "2026-08-21",
+    "categoria": "Geografia",
+    "titol": "El desert d'Atacama i l'efecte del corrent fred de Humboldt al Pacífic",
+    "explicacio": [
+      "Situat al nord de Xile, entre la serralada de la Costa i els Andes, el desert d'Atacama és considerat un dels deserts no polars més àrids del planeta, amb estacions meteorològiques on les precipitacions mitjanes anuals són pràcticament nul·les.",
+      "L'aridesa extrema respon a la combinació del corrent fred de Humboldt —que refreda l'aire inferior i dificulta la formació de núvols de pluja— i l'efecte d'ombra orogràfica de les muntanyes."
+    ]
+  },
+  {
+    "id": "art-vocals-neutres-balears",
+    "data": "2026-08-18",
+    "categoria": "Llengua",
+    "titol": "La vocal neutra en català central i balear: quan «a» i «e» àtones conflueixen",
+    "explicacio": [
+      "En el català oriental (incloent-hi el català central i bona part del balear), les vocals «a» i «e» en posició àtona tendeixen a neutralitzar-se en un so vocàlic central, la vocal neutra.",
+      "Això explica per què paraules com «casa» o «pare» es pronuncien amb vocal neutra final, i per què cal conèixer l'ortografia per saber si la vocal àtona s'escriu amb «a» o amb «e»."
+    ]
+  },
+  {
+    "id": "art-castellers-unesco-2010",
+    "data": "2026-08-15",
+    "categoria": "Cultura",
+    "titol": "Els castells van ser inscrits per la UNESCO com a Patrimoni Cultural Immaterial el 2010",
+    "explicacio": [
+      "El 16 de novembre de 2010, la UNESCO va inscriure els castells —les torres humanes aixecades principalment a Catalunya— a la Llista representativa del Patrimoni Cultural Immaterial de la Humanitat.",
+      "La pràctica castellera, documentada des del segle XVIII a partir dels balls de valencians del Camp de Tarragona, es basa en la col·laboració intergeneracional i en una estructura on la «pinya» dona estabilitat i seguretat a la base."
+    ]
+  },
+  {
+    "id": "art-riu-nil-conca",
+    "data": "2026-08-12",
+    "categoria": "Geografia",
+    "titol": "El Nil Blanc i el Nil Blau conflueixen a Khartum per formar el curs principal del Nil",
+    "explicacio": [
+      "El sistema fluvial del Nil s'alimenta principalment de dues grans branques: el Nil Blanc, que prové de la regió dels Grans Llacs africans, i el Nil Blau, que neix al llac Tana, a les terres altes d'Etiòpia.",
+      "Ambdues conques s'uneixen a Khartum (Sudan) i aporten cabals amb estacionalitats diferents, sent el Nil Blau el responsable de la major part de l'aigua i els sediments durant la temporada de pluges monsòniques."
+    ]
+  },
+  {
+    "id": "art-occita-parentiu-catala",
+    "data": "2026-08-09",
+    "categoria": "Llengua",
+    "titol": "La proximitat lingüística entre el català i l'occità dins del grup gal·loromànic",
+    "explicacio": [
+      "Dins de les llengües romàniques, el català i l'occità comparteixen una estreta proximitat històrica i estructural, amb trets comuns com la pèrdua de la «-o» final àtona en molts noms i adjectius.",
+      "A la Vall d'Aran, una varietat de l'occità —l'aranès— és llengua oficial juntament amb el català i el castellà segons l'Estatut d'autonomia de Catalunya."
+    ]
+  },
+  {
+    "id": "art-mapamundi-mercator-1569",
+    "data": "2026-08-06",
+    "categoria": "Geografia",
+    "titol": "La projecció de Mercator (1569) i per què representa els meridians com a línies paral·leles",
+    "explicacio": [
+      "El 1569, el cartògraf Gerardus Mercator va publicar un gran mapamundi basat en una projecció cilíndrica conformal on els paral·lels i els meridians es tallen en angle recte.",
+      "Aquesta projecció facilita traçar rutes de rumb constant (loxodròmiques) en la navegació marítima, a canvi d'exagerar progressivament la mida aparent de les zones allunyades de l'equador, com Groenlàndia."
+    ]
+  },
+  {
+    "id": "art-quipu-incai-registre",
+    "data": "2026-08-03",
+    "categoria": "Cultura",
+    "titol": "Els quipus andins: sistemes de cordes i nusos per a registres numèrics i administratius",
+    "explicacio": [
+      "A les civilitzacions andines precolombines, especialment durant l'Imperi Inca, els quipus eren instruments de registre formats per una corda principal i diverses cordes penjants amb diferents tipus de nusos, colors i posicions.",
+      "Permetien portar la comptabilitat en base decimal (unitats, desenes, centenes, milers) de censos, collites i tributs, i eren interpretats per especialistes anomenats quipucamayos."
     ]
   }
 ]
