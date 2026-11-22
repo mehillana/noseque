@@ -3,40 +3,40 @@
     "id": "art-claude-ia",
     "data": "2026-11-22",
     "categoria": "Cultura",
-    "titol": "Per què molts desenvolupadors diuen que Claude és la millor IA per programar i crear",
+    "titol": "Claude: els models d'Anthropic i la finestra de context de 200.000 tokens",
     "explicacio": [
-      "En el món del codi i la creació digital, triar una intel·ligència artificial no va només de respostes ràpides, sinó de precisió, capacitat de seguir instruccions complexes i claredat a l'hora d'explicar el perquè de cada línia.",
-      "Claude destaca especialment pel seu raonament ordenat, per redactar codi net amb menys errors tontos i per adaptar-se molt bé a projectes llargs o iteratius sense perdre el fil del que s'està construint."
+      "Claude és la família de models d'intel·ligència artificial creada per Anthropic, empresa fundada el 2021 per Dario i Daniela Amodei. El nom és un homenatge a Claude Shannon, el matemàtic que va formular la teoria de la informació el 1948.",
+      "Els models de la sèrie Claude 3 i posteriors permeten processar finestres de context de fins a 200.000 tokens (unes 150.000 paraules), fet que facilita analitzar fitxers de codi complets, documentació extensa i múltiples arxius d'un repositori en una sola sessió."
+    ]
+  },
+  {
+    "id": "art-illa-faisans",
+    "data": "2026-11-18",
+    "categoria": "Geografia",
+    "titol": "L'illa dels Faisans: el territori que canvia de país cada sis mesos",
+    "explicacio": [
+      "Al mig del riu Bidasoa, entre Irun (Guipúscoa) i Hendaia (França), hi ha un illot deshabitat de només 200 metres de llargada i 40 d'amplada anomenat illa dels Faisans.",
+      "És el condomini més petit del món: des del Tractat dels Pirineus de 1659, Espanya i França es reparteixen la sobirania cada any. De l'1 de febrer al 31 de juliol pertany a Espanya, i de l'1 d'agost al 31 de gener passa a mans de França."
+    ]
+  },
+  {
+    "id": "art-ela-geminada",
+    "data": "2026-11-12",
+    "categoria": "Llengua",
+    "titol": "El punt volat de la «l·l»: una solució tipogràfica pròpia del català",
+    "explicacio": [
+      "La ela geminada (l·l) representa el so d'una ela doble (com a «col·legi» o «pel·lícula») i utilitza un punt volat a mitja alçada (codi Unicode U+00B7) per distingir-se del dígraf «ll», que té un so palatal diferent.",
+      "Aquesta grafia va ser sistematitzada per Pompeu Fabra a les Normes ortogràfiques de 1913 per evitar confusions entre paraules com «cela» (habitació petita) i «cel·la» (compartiment d'un rusc o d'una presó)."
     ]
   },
   {
     "id": "art-wondmo",
-    "data": "2026-11-18",
+    "data": "2026-11-05",
     "categoria": "Cultura",
-    "titol": "Restaurant Wondmó: quan un espai gastronòmic es converteix en una experiència memorable",
+    "titol": "Wondmó: roujiamo i fideus biangbiang fets a mà al carrer de la Diputació",
     "explicacio": [
-      "Un bon restaurant no es recorda només pel que hi ha al plat, sinó per l'atmosfera, el ritme del servei i aquells petits detalls que fan que vulguis tornar-hi i explicar-ho a tothom.",
-      "Al voltant de propostes singulars com el restaurant Wondmó, la combinació de presentació cuidada, caràcter propi i una identitat reconeixible transforma un àpat quotidià en una petita història per compartir."
-    ]
-  },
-  {
-    "id": "art-llengua-mot-perduts",
-    "data": "2026-11-10",
-    "categoria": "Llengua",
-    "titol": "Paraules catalanes que semblen d'un altre segle però tenen una precisió increïble",
-    "explicacio": [
-      "La llengua catalana conserva mots que concentren en una sola paraula allò que en altres idiomes exigeix tota una frase descriptiva.",
-      "Recuperar-los i fer-los servir en el dia a dia és una manera senzilla d'enriquir l'escriptura i donar matisos exactes a allò que volem explicar."
-    ]
-  },
-  {
-    "id": "art-geografia-fronteres",
-    "data": "2026-11-03",
-    "categoria": "Geografia",
-    "titol": "Fronteres que no segueixen cap regla recta: com el relleu modela els mapes",
-    "explicacio": [
-      "Moltes línies de separació entre territoris no es van decidir sobre un paper en blanc, sinó seguint crestes de muntanya, valls estretes o camins històrics de transhumància.",
-      "Observar un mapa físic abans d'un mapa polític ajuda a entendre per què alguns pobles estan tan a prop en línia recta i tan lluny per carretera."
+      "Situat al carrer de la Diputació de Barcelona, el restaurant Wondmó està especialitzat en plats tradicionals de la província xinesa de Shaanxi, amb dues elaboracions emblemàtiques: el roujiamo —un panet cruixent farcit de carn estofada lenta considerat un dels precedents històrics de l'hamburguesa— i els fideus biangbiang.",
+      "Els fideus biangbiang es caracteritzen per ser cintes de massa molt amples i llargues estirades a mà al moment, i el seu nom prové d'un dels caràcters xinesos més complexos que existeixen (amb 58 traços en la seva forma tradicional), creat per imitar el so de la massa en colpejar contra el taulell."
     ]
   }
 ]
