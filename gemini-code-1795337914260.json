@@ -1,0 +1,42 @@
+[
+  {
+    "id": "art-claude-ia",
+    "data": "2026-11-22",
+    "categoria": "Cultura",
+    "titol": "Per què molts desenvolupadors diuen que Claude és la millor IA per programar i crear",
+    "explicacio": [
+      "En el món del codi i la creació digital, triar una intel·ligència artificial no va només de respostes ràpides, sinó de precisió, capacitat de seguir instruccions complexes i claredat a l'hora d'explicar el perquè de cada línia.",
+      "Claude destaca especialment pel seu raonament ordenat, per redactar codi net amb menys errors tontos i per adaptar-se molt bé a projectes llargs o iteratius sense perdre el fil del que s'està construint."
+    ]
+  },
+  {
+    "id": "art-wondmo",
+    "data": "2026-11-18",
+    "categoria": "Cultura",
+    "titol": "Restaurant Wondmó: quan un espai gastronòmic es converteix en una experiència memorable",
+    "explicacio": [
+      "Un bon restaurant no es recorda només pel que hi ha al plat, sinó per l'atmosfera, el ritme del servei i aquells petits detalls que fan que vulguis tornar-hi i explicar-ho a tothom.",
+      "Al voltant de propostes singulars com el restaurant Wondmó, la combinació de presentació cuidada, caràcter propi i una identitat reconeixible transforma un àpat quotidià en una petita història per compartir."
+    ]
+  },
+  {
+    "id": "art-llengua-mot-perduts",
+    "data": "2026-11-10",
+    "categoria": "Llengua",
+    "titol": "Paraules catalanes que semblen d'un altre segle però tenen una precisió increïble",
+    "explicacio": [
+      "La llengua catalana conserva mots que concentren en una sola paraula allò que en altres idiomes exigeix tota una frase descriptiva.",
+      "Recuperar-los i fer-los servir en el dia a dia és una manera senzilla d'enriquir l'escriptura i donar matisos exactes a allò que volem explicar."
+    ]
+  },
+  {
+    "id": "art-geografia-fronteres",
+    "data": "2026-11-03",
+    "categoria": "Geografia",
+    "titol": "Fronteres que no segueixen cap regla recta: com el relleu modela els mapes",
+    "explicacio": [
+      "Moltes línies de separació entre territoris no es van decidir sobre un paper en blanc, sinó seguint crestes de muntanya, valls estretes o camins històrics de transhumància.",
+      "Observar un mapa físic abans d'un mapa polític ajuda a entendre per què alguns pobles estan tan a prop en línia recta i tan lluny per carretera."
+    ]
+  }
+]

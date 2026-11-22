@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noséquè — Curiositats de llengua, geografia i cultura</title>
+
+  <!-- Única tipografia: Google Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400;0,17..18,500;0,17..18,700;1,17..18,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       1. VARIABLES I PALETA D'AQUAREL·LA
+       ========================================================================== */
+    :root {
+      --font-main: 'Google Sans', sans-serif;
+      --paper-bg: #faf8f5;
+      --paper-card: #ffffff;
+      --ink: #111111;
+      --ink-soft: #3f3f46;
+
+      /* Colors pastel d'aquarel·la */
+      --aqua-blue: #bae6fd;
+      --aqua-mint: #bbf7d0;
+      --aqua-lilac: #ddd6fe;
+      --aqua-peach: #fed7aa;
+      --aqua-yellow: #fef08a;
+
+      /* Traços i ombres artesanals */
+      --border-thick: 3px solid var(--ink);
+      --border-medium: 2.5px solid var(--ink);
+      --shadow-sketch: 4px 4px 0px var(--ink);
+      --shadow-sketch-lg: 6px 6px 0px var(--ink);
+
+      /* Radis orgànics irregulars */
+      --radius-box-1: 255px 15px 225px 15px / 15px 225px 15px 255px;
+      --radius-box-2: 18px 245px 15px 235px / 235px 15px 245px 18px;
+      --radius-pill: 95px 12px 105px 14px / 14px 105px 12px 95px;
+    }
+
+    /* ==========================================================================
+       2. ESTILS BASE I TEXTURA DE PAPER
+       ========================================================================== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-main);
+    }
+
+    body {
+      background-color: var(--paper-bg);
+      background-image:
+        radial-gradient(rgba(17, 17, 17, 0.04) 1px, transparent 0),
+        radial-gradient(rgba(186, 230, 253, 0.25) 0%, transparent 50%),
+        radial-gradient(rgba(254, 240, 138, 0.25) 0%, transparent 50%);
+      background-size: 24px 24px, 600px 600px, 500px 500px;
+      background-position: 0 0, -100px -50px, 100% 300px;
+      color: var(--ink);
+      font-family: var(--font-main);
+      font-weight: 400;
+      line-height: 1.65;
+      padding: 2rem 1.25rem 4rem;
+      overflow-x: hidden;
+    }
+
+    /* ==========================================================================
+       3. IL·LUSTRACIONS DECORATIVES GENERALS DE LA WEB
+       ========================================================================== */
+    .deco-laterals {
+      position: fixed;
+      top: 140px;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 1.5rem;
+      z-index: 0;
+    }
+
+    .deco-box {
+      width: 150px;
+      min-height: 150px;
+      background-color: var(--paper-card);
+      border: var(--border-medium);
+      border-radius: var(--radius-box-2);
+      box-shadow: var(--shadow-sketch);
+      padding: 0.65rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .deco-box.left {
+      background-color: rgba(186, 230, 253, 0.35);
+      transform: rotate(-3deg);
+    }
+
+    .deco-box.right {
+      background-color: rgba(221, 214, 254, 0.35);
+      transform: rotate(3deg);
+    }
+
+    .deco-box img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .deco-label {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--ink-soft);
+      margin-top: 0.35rem;
+    }
+
+    .container {
+      max-width: 740px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ==========================================================================
+       4. CAPÇALERA ARTESANAL
+       ========================================================================== */
+    .header-sketch {
+      background: var(--paper-card);
+      background-image: linear-gradient(135deg, rgba(254, 240, 138, 0.45) 0%, rgba(186, 230, 253, 0.35) 100%);
+      border: var(--border-thick);
+      border-radius: var(--radius-box-1);
+      box-shadow: var(--shadow-sketch-lg);
+      padding: 2.25rem 2rem;
+      text-align: center;
+      margin-bottom: 2.25rem;
+    }
+
+    .logo-wrapper {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .logo-img {
+      max-height: 105px;
+      width: auto;
+      display: block;
+    }
+
+    .logo-fallback {
+      display: none;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      background: var(--aqua-yellow);
+      padding: 0.35rem 1.5rem;
+      border: var(--border-thick);
+      border-radius: var(--radius-pill);
+      box-shadow: 3px 3px 0px var(--ink);
+      transform: rotate(-1.5deg);
+    }
+
+    .subtitle {
+      font-size: 1.12rem;
+      color: var(--ink-soft);
+      max-width: 540px;
+      margin: 0.5rem auto 1.75rem;
+      font-weight: 400;
+    }
+
+    /* ==========================================================================
+       5. BARRA DE FILTRES PER CATEGORIES
+       ========================================================================== */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+
+    .filter-btn {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--ink);
+      background-color: var(--paper-card);
+      border: var(--border-medium);
+      border-radius: var(--radius-pill);
+      box-shadow: 3px 3px 0px var(--ink);
+      padding: 0.5rem 1.25rem;
+      cursor: pointer;
+      transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.18s ease, background-color 0.2s ease;
+    }
+
+    .filter-btn:hover {
+      transform: translateY(-2px) rotate(-1.5deg);
+      box-shadow: 5px 5px 0px var(--ink);
+    }
+
+    .filter-btn:active {
+      transform: translate(2px, 2px);
+      box-shadow: 1px 1px 0px var(--ink);
+    }
+
+    .filter-btn.active[data-cat="Totes"] { background-color: var(--aqua-yellow); }
+    .filter-btn.active[data-cat="Llengua"] { background-color: var(--aqua-blue); }
+    .filter-btn.active[data-cat="Geografia"] { background-color: var(--aqua-mint); }
+    .filter-btn.active[data-cat="Cultura"] { background-color: var(--aqua-lilac); }
+
+    /* ==========================================================================
+       6. FEED CRONOLÒGIC I TARGETES D'ARTICLES
+       ========================================================================== */
+    .feed-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2.25rem;
+    }
+
+    .article-card {
+      background-color: var(--paper-card);
+      border: var(--border-thick);
+      border-radius: var(--radius-box-2);
+      box-shadow: var(--shadow-sketch-lg);
+      padding: 1.75rem 2rem;
+      transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .article-card:nth-child(odd) {
+      border-radius: var(--radius-box-1);
+    }
+
+    .article-card:hover {
+      transform: translateY(-3px) rotate(-0.6deg);
+    }
+
+    .article-card[data-category="Llengua"] {
+      background-image: radial-gradient(circle at top right, rgba(186, 230, 253, 0.55) 0%, transparent 45%);
+    }
+    .article-card[data-category="Geografia"] {
+      background-image: radial-gradient(circle at top right, rgba(187, 247, 208, 0.55) 0%, transparent 45%);
+    }
+    .article-card[data-category="Cultura"] {
+      background-image: radial-gradient(circle at top right, rgba(221, 214, 254, 0.55) 0%, transparent 45%);
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .card-date {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--ink-soft);
+    }
+
+    .category-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.25rem 0.9rem;
+      border: 2px solid var(--ink);
+      border-radius: var(--radius-pill);
+      box-shadow: 2px 2px 0px var(--ink);
+    }
+
+    .badge-Llengua { background-color: var(--aqua-blue); }
+    .badge-Geografia { background-color: var(--aqua-mint); }
+    .badge-Cultura { background-color: var(--aqua-lilac); }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 0.9rem;
+      color: var(--ink);
+    }
+
+    .card-body p {
+      font-size: 1.05rem;
+      font-weight: 400;
+      color: #27272a;
+      margin-bottom: 1rem;
+    }
+
+    .card-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ==========================================================================
+       7. ACCIONS DE LA TARGETA
+       ========================================================================== */
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      padding-top: 1.15rem;
+      border-top: 2px dashed rgba(17, 17, 17, 0.25);
+    }
+
+    .action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--ink);
+      background-color: var(--paper-card);
+      border: var(--border-medium);
+      border-radius: var(--radius-pill);
+      box-shadow: 3px 3px 0px var(--ink);
+      padding: 0.48rem 1.05rem;
+      cursor: pointer;
+      transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s ease;
+    }
+
+    .action-btn:hover {
+      transform: translateY(-2px) rotate(-1.5deg);
+      box-shadow: 4px 4px 0px var(--ink);
+    }
+
+    .action-btn:active {
+      transform: translate(2px, 2px);
+      box-shadow: 1px 1px 0px var(--ink);
+    }
+
+    .surprise-btn.surprised {
+      background-color: var(--aqua-peach);
+    }
+
+    .surprise-count {
+      font-size: 0.9rem;
+      font-weight: 700;
+      background-color: var(--paper-bg);
+      border: 1.5px solid var(--ink);
+      border-radius: 50%;
+      min-width: 26px;
+      height: 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 5px;
+    }
+
+    .share-feedback {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--ink);
+      background-color: var(--aqua-mint);
+      padding: 0.2rem 0.75rem;
+      border: 2px solid var(--ink);
+      border-radius: var(--radius-pill);
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      pointer-events: none;
+    }
+
+    .share-feedback.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+       8. PEU DE PÀGINA I RESPONSIVE
+       ========================================================================== */
+    .footer-sketch {
+      margin-top: 3.5rem;
+      text-align: center;
+      font-size: 0.98rem;
+      font-weight: 500;
+      color: var(--ink-soft);
+    }
+
+    .footer-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      background: var(--paper-card);
+      border: var(--border-medium);
+      border-radius: var(--radius-pill);
+      box-shadow: 3px 3px 0px var(--ink);
+      padding: 0.45rem 1.25rem;
+    }
+
+    .avatar-mini {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 2px solid var(--ink);
+      object-fit: cover;
+      background-color: var(--aqua-yellow);
+    }
+
+    .status-box {
+      background-color: var(--aqua-peach);
+      border: var(--border-medium);
+      border-radius: var(--radius-box-2);
+      box-shadow: var(--shadow-sketch);
+      padding: 1.25rem;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    @media (max-width: 1120px) {
+      .deco-laterals {
+        display: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .header-sketch, .article-card {
+        padding: 1.35rem 1.25rem;
+      }
+      .card-title {
+        font-size: 1.32rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- DECORACIONS LATERALS GENERALS DE LA WEB -->
+  <div class="deco-laterals" aria-hidden="true">
+    <div class="deco-box left">
+      <img
+        src="deco-esquerra.png"
+        alt="Il·lustració decorativa esquerra"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+      >
+      <span class="deco-label" style="display:none;">deco-esquerra.png</span>
+    </div>
+    <div class="deco-box right">
+      <img
+        src="deco-dreta.png"
+        alt="Il·lustració decorativa dreta"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+      >
+      <span class="deco-label" style="display:none;">deco-dreta.png</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- CAPÇALERA -->
+    <header class="header-sketch">
+      <div class="logo-wrapper">
+        <img
+          src="logo-noseque.png"
+          alt="Logotip de Noséquè"
+          class="logo-img"
+          onerror="this.style.display='none'; document.getElementById('logoFallback').style.display='inline-flex';"
+        >
+        <div id="logoFallback" class="logo-fallback">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+            <path d="M12 17h.01"/>
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+          </svg>
+          <span>Noséquè</span>
+        </div>
+      </div>
+
+      <p class="subtitle">Curiositats de llengua, geografia i cultura que no sabies que volies saber</p>
+
+      <nav class="filter-bar" aria-label="Filtra per categoria">
+        <button class="filter-btn active" data-cat="Totes">Totes</button>
+        <button class="filter-btn" data-cat="Llengua">Llengua</button>
+        <button class="filter-btn" data-cat="Geografia">Geografia</button>
+        <button class="filter-btn" data-cat="Cultura">Cultura</button>
+      </nav>
+    </header>
+
+    <!-- FEED CARREGAT DES DE articles.json -->
+    <main id="feedContainer" class="feed-list" aria-live="polite">
+      <div class="status-box">Carregant els articles des de <strong>articles.json</strong>...</div>
+    </main>
+
+    <!-- PEU DE PÀGINA -->
+    <footer class="footer-sketch">
+      <div class="footer-badge">
+        <img
+          src="avatar-autor.png"
+          alt="Autor de Noséquè"
+          class="avatar-mini"
+          onerror="this.style.display='none';"
+        >
+        <span>Noséquè — Llibreta d'esbossos i divulgació artesanal</span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    /* ==========================================================================
+       1. CONFIGURACIÓ I ESTAT DE L'APLICACIÓ
+       ========================================================================== */
+    const JSON_URL = "articles.json";
+    const STORAGE_KEY = "noseque_reaccions_v2";
+
+    let articlesCarregats = [];
+    let categoriaActiva = "Totes";
+
+    function carregarReaccions() {
+      try {
+        const dades = localStorage.getItem(STORAGE_KEY);
+        return dades ? JSON.parse(dades) : {};
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function desarReaccions(reaccions) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(reaccions));
+      } catch (e) {
+        console.warn("Error desant a localStorage:", e);
+      }
+    }
+
+    /* ==========================================================================
+       2. CÀRREGA DEL FITXER JSON EXTERN (articles.json)
+       ========================================================================== */
+    async function carregarArticlesJSON() {
+      const contenidor = document.getElementById("feedContainer");
+
+      try {
+        const resposta = await fetch(JSON_URL);
+        if (!resposta.ok) {
+          throw new Error(`HTTP ${resposta.status}`);
+        }
+        const dades = await resposta.json();
+        if (!Array.isArray(dades)) {
+          throw new Error("El contingut de articles.json no és un array.");
+        }
+
+        articlesCarregats = dades;
+        renderitzarFeed();
+      } catch (error) {
+        console.error("Error carregant articles.json:", error);
+        contenidor.innerHTML = `
+          <div class="status-box">
+            No s'ha pogut llegir <strong>articles.json</strong>. Recorda obrir el projecte amb un servidor local (com Live Server o <code>py -m http.server</code>) i assegurar-te que <strong>articles.json</strong> és a la mateixa carpeta.
+          </div>
+        `;
+      }
+    }
+
+    /* ==========================================================================
+       3. FORMATACIÓ DE DATES EN CATALÀ
+       ========================================================================== */
+    function formatarDataCatala(dataISO) {
+      const mesos = [
+        "de gener", "de febrer", "de març", "d'abril", "de maig", "de juny",
+        "de juliol", "d'agost", "de setembre", "d'octubre", "de novembre", "de desembre"
+      ];
+      const parts = (dataISO || "").split("-");
+      if (parts.length !== 3) return dataISO;
+      const any = parts[0];
+      const mesIndex = parseInt(parts[1], 10) - 1;
+      const dia = parseInt(parts[2], 10);
+      if (mesIndex < 0 || mesIndex > 11 || isNaN(dia)) return dataISO;
+      return `${dia} ${mesos[mesIndex]} de ${any}`;
+    }
+
+    /* ==========================================================================
+       4. RENDERITZAT DEL FEED
+       ========================================================================== */
+    function renderitzarFeed() {
+      const contenidor = document.getElementById("feedContainer");
+      const reaccions = carregarReaccions();
+
+      const filtrats = articlesCarregats.filter(art => {
+        if (categoriaActiva === "Totes") return true;
+        return art.categoria === categoriaActiva;
+      });
+
+      filtrats.sort((a, b) => new Date(b.data) - new Date(a.data));
+
+      if (filtrats.length === 0) {
+        contenidor.innerHTML = `
+          <div class="status-box">No hi ha cap article en aquesta categoria de moment.</div>
+        `;
+        return;
+      }
+
+      contenidor.innerHTML = filtrats.map(art => {
+        const estat = reaccions[art.id] || { count: 0, actiu: false };
+        const paragrafs = Array.isArray(art.explicacio)
+          ? art.explicacio.map(p => `<p>${p}</p>`).join("")
+          : `<p>${art.explicacio || ""}</p>`;
+
+        return `
+          <article class="article-card" data-category="${art.categoria}">
+            <div class="card-meta">
+              <time class="card-date" datetime="${art.data}">${formatarDataCatala(art.data)}</time>
+              <span class="category-badge badge-${art.categoria}">${art.categoria}</span>
+            </div>
+
+            <h2 class="card-title">${art.titol}</h2>
+            <div class="card-body">
+              ${paragrafs}
+            </div>
+
+            <div class="card-footer">
+              <button
+                type="button"
+                class="action-btn surprise-btn ${estat.actiu ? 'surprised' : ''}"
+                onclick="alternarSorpresa('${art.id}')"
+                aria-pressed="${estat.actiu}"
+              >
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="${estat.actiu ? '#111111' : 'none'}" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+                <span>M'ha sorprès!</span>
+                <span class="surprise-count">${estat.count}</span>
+              </button>
+
+              <div style="display: flex; align-items: center; gap: 0.65rem;">
+                <span id="feedback-${art.id}" class="share-feedback">Copiat al porta-retalls</span>
+                <button
+                  type="button"
+                  class="action-btn"
+                  onclick="compartirArticle('${art.id}', '${String(art.titol).replace(/'/g, "\\'")}')"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="18" cy="5" r="3"/>
+                    <circle cx="6" cy="12" r="3"/>
+                    <circle cx="18" cy="19" r="3"/>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                  </svg>
+                  <span>Comparteix</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    /* ==========================================================================
+       5. INTERACCIONS D'USUARI
+       ========================================================================== */
+    function alternarSorpresa(id) {
+      const reaccions = carregarReaccions();
+      const actual = reaccions[id] || { count: 0, actiu: false };
+
+      if (actual.actiu) {
+        actual.actiu = false;
+        actual.count = Math.max(0, actual.count - 1);
+      } else {
+        actual.actiu = true;
+        actual.count += 1;
+      }
+
+      reaccions[id] = actual;
+      desarReaccions(reaccions);
+      renderitzarFeed();
+    }
+
+    function compartirArticle(id, titol) {
+      const text = `Sabies això? "${titol}" — Llegit a Noséquè (${window.location.href})`;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => mostrarAvisCompartit(id));
+      } else {
+        mostrarAvisCompartit(id);
+      }
+    }
+
+    function mostrarAvisCompartit(id) {
+      const avis = document.getElementById(`feedback-${id}`);
+      if (!avis) return;
+      avis.classList.add("visible");
+      setTimeout(() => avis.classList.remove("visible"), 2200);
+    }
+
+    document.querySelectorAll(".filter-btn").forEach(boto => {
+      boto.addEventListener("click", () => {
+        document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+        boto.classList.add("active");
+        categoriaActiva = boto.getAttribute("data-cat");
+        renderitzarFeed();
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", carregarArticlesJSON);
+  </script>
+</body>
+</html>
