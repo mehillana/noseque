@@ -228,5 +228,255 @@
       "A les civilitzacions andines precolombines, especialment durant l'Imperi Inca, els quipus eren instruments de registre formats per una corda principal i diverses cordes penjants amb diferents tipus de nusos, colors i posicions.",
       "Permetien portar la comptabilitat en base decimal (unitats, desenes, centenes, milers) de censos, collites i tributs, i eren interpretats per especialistes anomenats quipucamayos."
     ]
+  },
+  {
+    "id": "art-socotra-drago-arbres",
+    "data": "2026-07-30",
+    "categoria": "Geografia",
+    "titol": "Socotra: l'arxipèlag del mar d'Aràbia on més d'un terç de les plantes són endèmiques",
+    "explicacio": [
+      "Situat a l'oceà Índic, davant del corn d'Àfrica i al sud de la península Aràbiga, l'arxipèlag de Socotra destaca per un grau d'endemisme botànic extraordinari, amb més de 300 espècies vegetals que no creixen enlloc més del món.",
+      "La seva icona més coneguda és l'arbre de la sang de drac (Dracaena cinnabari), de capçada en forma de paraigua invertit i saba vermella fosca, adaptat a recollir la humitat de les boires costaneres."
+    ]
+  },
+  {
+    "id": "art-piraha-llengua-sense-numeros",
+    "data": "2026-07-26",
+    "categoria": "Llengua",
+    "titol": "El pirahã: una llengua amazònica sense nombres exactes ni temps gramaticals d'esdeveniments passats",
+    "explicacio": [
+      "Parlat per un petit poble al llarg del riu Maici, a l'Amazònia brasilera, el pirahã ha fascinat els lingüistes per absències que es creien universals, com la manca de termes per a numerals exactes o de categories de color abstractes.",
+      "La seva gramàtica posa l'èmfasi en l'evidencialitat —és a dir, si el parlant ha vist o sentit directament allò que afirma— i utilitza variacions de to, volum i accent per transmetre matisos."
+    ]
+  },
+  {
+    "id": "art-mecanisme-anticitera",
+    "data": "2026-07-22",
+    "categoria": "Cultura",
+    "titol": "El mecanisme d'Anticitera: un ordinador astronòmic d'engranatges de l'antiga Grècia",
+    "explicacio": [
+      "Recuperat el 1901 d'un vaixell enfonsat prop de l'illot grec d'Anticitera, aquest artefacte del segle II o I aC contenia almenys trenta engranatges de bronze d'una precisió sorprenent per a la seva època.",
+      "Permetia predir eclipsis lunars i solars, seguir els cicles del calendari metònic i reproduir els moviments irregulars de la Lluna segons la teoria hipàrquica."
+    ]
+  },
+  {
+    "id": "art-pont-vivent-arrels-meghalaya",
+    "data": "2026-07-18",
+    "categoria": "Geografia",
+    "titol": "Els ponts d'arrels vives de Meghalaya: enginyeria vegetal en un dels llocs més plujosos",
+    "explicacio": [
+      "A les regions muntanyoses de Meghalaya, al nord-est de l'Índia, els pobles khasi i jaintia guien les arrels aèries de la figuera de bengala (Ficus elastica) a través de troncs buits o bambú perquè travessin rierols.",
+      "A diferència de la fusta, que es podreix ràpidament amb l'excés d'humitat i els monsons, aquests ponts vius es reforcen amb el pas de les dècades i alguns superen els cent anys d'antiguitat."
+    ]
+  },
+  {
+    "id": "art-llengua-xiulada-silbo-gomero",
+    "data": "2026-07-14",
+    "categoria": "Llengua",
+    "titol": "El silbo gomer: comunicar-se a quilòmetres d'un barranc xiulant una llengua",
+    "explicacio": [
+      "A l'illa de La Gomera (Canàries), el silbo gomer és un llenguatge xiulat que transposa el castellà a xiulets modulats en freqüència i intensitat, capaç d'arribar a distàncies d'entre tres i cinc quilòmetres a través dels barrancs.",
+      "En lloc de ser un codi secret o un conjunt de senyals fixes, codifica vocals i consonants per formar frases completes i va ser declarat Patrimoni Cultural Immaterial de la UNESCO el 2009."
+    ]
+  },
+  {
+    "id": "art-codex-serafinianus",
+    "data": "2026-07-10",
+    "categoria": "Cultura",
+    "titol": "Codex Seraphinianus: una enciclopèdia d'un món imaginari amb escriptura indesxifrable",
+    "explicacio": [
+      "Publicat el 1981 per l'artista i arquitecte italià Luigi Serafini, el Codex Seraphinianus és una enciclopèdia il·lustrada que descriu la flora, la fauna, l'arquitectura i els costums d'un univers fantàstic.",
+      "El text està escrit en un alfabet inventat de traços sinuosos i aparentment orgànics que no correspon a cap idioma real, oferint una experiència visual a mig camí entre el surrealisme i els manuscrits medievals."
+    ]
+  },
+  {
+    "id": "art-llac-baikal-profunditat",
+    "data": "2026-07-06",
+    "categoria": "Geografia",
+    "titol": "El llac Baikal: la conca d'aigua dolça més profunda i antiga del planeta",
+    "explicacio": [
+      "Enclavats al sud de Sibèria, el llac Baikal supera els 1.640 metres de profunditat i concentra prop del 20 % de tota l'aigua dolça superficial no congelada de la Terra.",
+      "Ocupa una falla tectònica activa d'uns 25 a 30 milions d'anys i alberga més de mil espècies animals endèmiques, incloent-hi la nerpa, l'única foca d'aigua dolça coneguda."
+    ]
+  },
+  {
+    "id": "art-falsos-amics-catala-castella",
+    "data": "2026-07-02",
+    "categoria": "Llengua",
+    "titol": "Falsos amics en català: per què «recordar» i «acordar» no són el mateix que en castellà",
+    "explicacio": [
+      "Els falsos amics són parells de paraules de dues llengües amb un origen o una forma semblants però amb significats diferents o matisos d'ús divergents.",
+      "En català, «recordar» significa fer venir a la memòria o assemblar-se a algú/alguna cosa (mentre que «acordar» equival a pactar o posar-se d'acord), un punt on la interferència amb el castellà és freqüent."
+    ]
+  },
+  {
+    "id": "art-biblioteca-timbuktu-manuscrits",
+    "data": "2026-06-28",
+    "categoria": "Cultura",
+    "titol": "Els manuscrits de Tombouctou: astronomia, dret i poesia conservats al desert",
+    "explicacio": [
+      "Entre els segles XIV i XVI, Tombouctou (a l'actual Mali) va ser un gran centre intel·lectual i comercial de l'Àfrica occidental, amb biblioteques privades i públiques que reunien centenars de milers de manuscrits.",
+      "Els textos aborden àmbits molt diversos —des de l'òptica, les matemàtiques i l'astronomia fins a la medicina, la història local i la lírica— i van ser protegits durant generacions per famílies locals."
+    ]
+  },
+  {
+    "id": "art-salar-de-uyuni-mirall",
+    "data": "2026-06-24",
+    "categoria": "Geografia",
+    "titol": "El salar d'Uyuni: més de 10.000 km² de sal a l'altiplà andí de Bolívia",
+    "explicacio": [
+      "Situat a uns 3.650 metres d'altitud, el salar d'Uyuni és el desert de sal continu més gran del món i es va formar a partir de l'assecament de llacs prehistòrics.",
+      "Durant l'estació humida, una fina capa d'aigua cobrix la crosta salina i la converteix en un mirall natural gegantí que difumina la línia de l'horitzó entre el cel i la terra."
+    ]
+  },
+  {
+    "id": "art-euskera-aillament-genetic",
+    "data": "2026-06-20",
+    "categoria": "Llengua",
+    "titol": "L'èuscar: una llengua aïllada anterior a l'arribada de les llengües indoeuropees",
+    "explicacio": [
+      "A diferència del català, el castellà, el francès o l'anglès, l'èuscar (o basc) no pertany a la família indoeuropea i no s'ha demostrat de manera concloent el seu parentiu amb cap altra llengua viva.",
+      "La seva supervivència en una franja dels Pirineus occidentals i el Cantàbric el converteix en una peça clau per entendre la prehistòria lingüística d'Europa."
+    ]
+  },
+  {
+    "id": "art-zootrop-i-precinema",
+    "data": "2026-06-16",
+    "categoria": "Cultura",
+    "titol": "El zootrop i la persistència retiniana: els precedents mecànics del cinema",
+    "explicacio": [
+      "Abans de l'aparició del cinematògraf dels germans Lumière el 1895, dispositius com el zootrop feien girar un tambor amb tires d'imatges dibuixades que s'observaven a través de ranures.",
+      "Aquestes joguines òptiques del segle XIX aprofitaven la manera com el sistema visual humà integra ràpidament seqüències de fotogrames per crear la sensació de moviment continu."
+    ]
+  },
+  {
+    "id": "art-fjord-sognefjord-noruega",
+    "data": "2026-06-12",
+    "categoria": "Geografia",
+    "titol": "Els fiords noruecs: valls excavades per glaceres i inundades pel mar",
+    "explicacio": [
+      "Un fiord és un braç de mar estret i profund flanquejat per parets escarpades, format quan les glaceres de les edats del gel van erosionar profundament valls fluvials i, en retirar-se, l'aigua marina hi va entrar.",
+      "El Sognefjord, a Noruega, supera els 200 quilòmetres de llargada des de la costa cap a l'interior i assoleix profunditats superiors als 1.300 metres."
+    ]
+  },
+  {
+    "id": "art-neologismes-i-calcs-tecnologics",
+    "data": "2026-06-08",
+    "categoria": "Llengua",
+    "titol": "Com incorpora paraules noves el català: derivació, composició i adaptació",
+    "explicacio": [
+      "Quan apareixen nous objectes, ciències o pràctiques digitals, les llengües combinen recursos propis —com prefixos, sufixos i paraules compostes— amb l'adaptació ortogràfica i morfològica de termes estrangers.",
+      "El TERMCAT i l'Institut d'Estudis Catalans estudien i normalitzen terminologia especialitzada per garantir precisió i coherència en l'àmbit científic, tècnic i quotidià."
+    ]
+  },
+  {
+    "id": "art-pedra-de-rosella-1799",
+    "data": "2026-06-04",
+    "categoria": "Cultura",
+    "titol": "La pedra de Rosetta: tres escriptures per a un mateix decret del 196 aC",
+    "explicacio": [
+      "Trobada el 1799 a Egipte durant la campanya napoleònica, la pedra de Rosetta conté el mateix decret sacerdotal gravat en jeroglífics egipcis, escriptura demòtica i grec antic.",
+      "El grec antic, ja conegut pels estudiosos, va servir de clau perquè Jean-François Champollion desxifrés el sistema fonètic i ideogràfic dels jeroglífics a partir del 1822."
+    ]
+  },
+  {
+    "id": "art-mar-d-aral-retraccio",
+    "data": "2026-05-31",
+    "categoria": "Geografia",
+    "titol": "El mar d'Aral: com el desviament dels rius per al regadiu en va canviar la geografia",
+    "explicacio": [
+      "Situat entre el Kazakhstan i l'Uzbekistan, el mar d'Aral va ser un dels llacs més grans del món fins a la segona meitat del segle XX, alimentat principalment pels rius Amu Daria i Sir Daria.",
+      "A partir dels anys seixanta, la desviació massiva d'aquestes aigües per al cultiu del cotó va provocar una dràstica reducció del volum d'aigua, la fragmentació en conques menors i l'augment de la salinitat."
+    ]
+  },
+  {
+    "id": "art-esperanto-zamenhof-1887",
+    "data": "2026-05-27",
+    "categoria": "Llengua",
+    "titol": "L'esperanto: la llengua planificada publicada per L. L. Zamenhof el 1887",
+    "explicacio": [
+      "Presentat el 1887 per l'oftalmòleg polonès Ludwik Lejzer Zamenhof amb el pseudònim «Doktoro Esperanto», l'esperanto és la llengua auxiliar construïda més estesa del món.",
+      "Combina un vocabulari d'arrel majoritàriament romànica, germànica i eslava amb una gramàtica altament regular i un sistema de sufixos i prefixos que permet construir paraules noves de manera sistemàtica."
+    ]
+  },
+  {
+    "id": "art-teatre-globus-isabeli",
+    "data": "2026-05-23",
+    "categoria": "Cultura",
+    "titol": "El teatre isabelí i el Globe de Londres: escenaris oberts i interacció amb el públic",
+    "explicacio": [
+      "Durant l'època isabelina i jacobina (finals del segle XVI i principis del XVII), el teatre anglès va viure una etapa d'enorme vitalitat amb autors com William Shakespeare i Christopher Marlowe.",
+      "En edificis com el Globe Theatre, el pati central era a cel obert i els espectadors de peu rodejaven l'escenari, afavorint una relació directa i dinàmica entre actors i públic en absència de decorats pesants."
+    ]
+  },
+  {
+    "id": "art-corrent-del-golf-clima",
+    "data": "2026-05-19",
+    "categoria": "Geografia",
+    "titol": "El corrent del Golf i la circulació oceànica que transporta calor cap a l'Atlàntic nord",
+    "explicacio": [
+      "El corrent del Golf és un corrent oceànic càlid i ràpid que neix al golf de Mèxic, ressegueix la costa est d'Amèrica del Nord i es projecta cap a l'Atlàntic septentrional.",
+      "Forma part d'un sistema més ampli de circulació termohalina que redistribueix calor i salinitat a escala planetària i modera les temperatures hivernals a les latituds altes de l'Atlàntic."
+    ]
+  },
+  {
+    "id": "art-palindroms-i-jocs-de-paraules",
+    "data": "2026-05-15",
+    "categoria": "Llengua",
+    "titol": "Palíndroms, anagrames i lipogrames: l'enginy lúdic de la literatura i la llengua",
+    "explicacio": [
+      "Els jocs de restricció formal posen a prova l'elasticitat del lèxic i la sintaxi: un palíndrom es llegeix igual d'esquerra a dreta que de dreta a esquerra, i un anagrama reordena les lletres d'una expressió per formar-ne una altra.",
+      "Un cas extrem de lipograma —escriure un text ometent intencionadament una lletra— és la novel·la La disparition (1969) de Georges Perec, escrita íntegrament sense la lletra «e»."
+    ]
+  },
+  {
+    "id": "art-pigments-ultramar-lapislazuli",
+    "data": "2026-05-11",
+    "categoria": "Cultura",
+    "titol": "El blau ultramar i el lapislàtzuli: un pigment més valuós que l'or a l'edat mitjana",
+    "explicacio": [
+      "Durant segles, el blau ultramar autèntic s'obtenia molta i purificant el lapislàtzuli, una pedra semipreciosa extreta principalment de les mines de Badakhshan, a l'actual Afganistan.",
+      "El seu alt cost i la seva lluminositat inalterable van fer que es reservés per a detalls simbòlics destacats, com el mantell de la Mare de Déu en la pintura medieval i renaixentista, fins a la seva síntesi química el 1826."
+    ]
+  },
+  {
+    "id": "art-volcans-anell-de-foc-pacific",
+    "data": "2026-05-07",
+    "categoria": "Geografia",
+    "titol": "El Cinturó de Foc del Pacífic: zones de subducció i activitat sísmica intensa",
+    "explicacio": [
+      "Al voltant de la conca de l'oceà Pacífic s'estén una àmplia franja en forma d'arc on conflueixen múltiples plaques tectòniques, concentrant la major part dels terratrèmols i erupcions volcàniques del planeta.",
+      "En aquestes zones de subducció, una placa oceànica més densa s'enfonsa sota una altra placa, generant fricció, fusió parcial del mantell i serralades volcàniques com els Andes o les Cascades."
+    ]
+  },
+  {
+    "id": "art-braille-sistema-tactil-1824",
+    "data": "2026-05-03",
+    "categoria": "Llengua",
+    "titol": "El sistema braille: una matriu de sis punts per llegir i escriure pel tacte",
+    "explicacio": [
+      "Desenvolupat a partir del 1824 per Louis Braille a França, el sistema braille representa lletres, números, signes de puntuació i notació musical mitjançant combinacions de punts en relleu dins d'una cel·la de dues columnes per tres files.",
+      "La disposició en una matriu de sis punts (63 combinacions no buides) permet identificar cada caràcter amb un sol rovell del dit i facilita tant la lectura tàctil com l'escriptura."
+    ]
+  },
+  {
+    "id": "art-origami-papiroflexia-tradicional",
+    "data": "2026-04-29",
+    "categoria": "Cultura",
+    "titol": "L'origami i la geometria del plec: de la tradició japonesa al disseny espacial",
+    "explicacio": [
+      "L'origami —l'art tradicional de plegar paper sense tallar-lo ni enganxar-lo per crear figures— va passar de la dimensió cerimonial i recreativa a convertir-se en un camp d'estudi de la geometria computacional.",
+      "Avui dia, els patrons de plec inspirats en l'origami s'apliquen per desplegar panells solars o antenes dins de coets espacials i dissenyar estructures lleugeres i resistents."
+    ]
+  },
+  {
+    "id": "art-delta-de-l-ebre-formacio",
+    "data": "2026-04-25",
+    "categoria": "Geografia",
+    "titol": "El delta de l'Ebre: sediments fluvials, aiguamolls i dinàmica costanera",
+    "explicacio": [
+      "A l'extrem sud de Catalunya, el delta de l'Ebre s'ha format al llarg dels segles per l'acumulació de sediments arrossegats pel riu fins a la mar Mediterrània, creant una plana fèrtil i una extensa xarxa de llacunes i maresmes.",
+      "La retenció de sediments en embassaments i la pujada del nivell del mar plantegen reptes constants per mantenir l'equilibri ecològic i la superfície del delta."
+    ]
   }
 ]
